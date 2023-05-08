@@ -1,0 +1,177 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(255, 208, 0, 0.3);
+}
+
+@font-face {
+  font-family: "TTWanjudaedunsancheB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/TTWanjudaedunsancheB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wrap {
+  max-width: 600px;
+  width: calc(100% - 2rem);
+  margin: 1rem auto;
+  height: calc(100vh - 2rem);
+  position: relative;
+  background-color: #fafafa;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+h1 {
+  font-family: "TTWanjudaedunsancheB";
+  text-align: center;
+  padding: 1.5rem 0;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.guide_chat {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: rgba(255, 167, 84, 0.1);
+}
+.guide_chat > label {
+  margin: 0.5rem 0;
+}
+.guide_chat > input {
+  width: 100%;
+  margin: 0 0 1rem;
+  background-color: white;
+  box-shadow: 0 0 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+.guide_chat > input:focus {
+  background-color: rgb(255, 244, 194);
+}
+.guide_chat > button {
+  margin-top: 1rem;
+  width: 100%;
+}
+.notice {
+  padding-top: 1.5rem;
+}
+.chat_con {
+  background-color: #ffa9294f;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  height: calc(100vh - 350px - 2rem);
+  overflow-y: scroll;
+}
+#btnSendMessage {
+  border: 2px solid #ffa500;
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+#btnSendMessage:hover {
+  background-color: transparent;
+  color: #333;
+}
+.loader {
+  display: flex;
+  text-align: center;
+  padding: 2rem 0;
+}
+.loader i {
+  font-size: 2rem;
+}
+.loader p {
+  font-family: "TTWanjudaedunsancheB";
+  padding-top: 2rem;
+  font-size: 1.25rem;
+}
+.btnCon {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.restart {
+  border: 2px solid orange;
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+}
+.restart:hover {
+  background-color: transparent;
+  color: #333;
+}
+
+.chat_message > p {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #fffae9;
+  border-radius: 0.5rem;
+  font-family: "SUITE-Regular";
+  text-align: end;
+}
+.chat_message .assistant {
+  background-color: white;
+  text-align: left;
+}
+.chat-input {
+  padding: 2rem 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.chat-input input {
+  font-family: "SUITE-Regular";
+  width: 80%;
+  padding: 0.5rem;
+  background-color: white;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.chat-input input:focus {
+  background-color: rgb(255, 244, 194);
+}
+.chat-input button {
+  width: 15%;
+  border: 2px solid orange;
+  color: #333;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.chat-input button:hover {
+  background-color: orange;
+  color: white;
+}
+
+.kakaoAd {
+  border: 1px solid #dfdfdf;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
