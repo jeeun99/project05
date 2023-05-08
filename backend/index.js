@@ -1,4 +1,4 @@
-let keys = "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";
+let keys = "sk-";
 
 const { Configuration, OpenAIApi } = require("openai");
 const express = require("express");
