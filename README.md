@@ -4,6 +4,8 @@ chatGPT를 활용한 헬스 정보 제공 웹사이트
 
 데모 링크 : [데모링크](https://healthtrainners.pages.dev/)
 
+<img src='https://raw.githubusercontent.com/jeeun99/project05/master/mockup/mockup.jpg' alt='demo' />
+
 ## 🙋 프로젝트 소개
 
 chatGPT API를 활용한 간단한 웹서비스입니다.
