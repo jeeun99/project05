@@ -28,6 +28,17 @@ chatGPT API를 활용한 간단한 웹서비스입니다.
 
 ---
 
+
+### 💬 참고사항
+
+chatGPT playground를 활용하여 message role 등을 지정했습니다.
+
+진행하며 CORS 오류가 발생했어서 cors 라이브러리를 설치해 해결했습니다.
+
+AWS의 APIGateway에 backend 내용을 업로드하고, CloudFlare에 frontend 내용을 업로드해 데모를 제작했습니다.
+
+---
+
 ### 🔗 링크 모음
 
 데모 링크 : <https://healthtrainners.pages.dev/>
